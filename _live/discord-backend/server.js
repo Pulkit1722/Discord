@@ -22,7 +22,7 @@ main().catch(err => console.log(err));
 
 
 async function main() {
-  await mongoose.connect('mongodb+srv://admin:DgjLh60He4m5HPhC@cluster0.y7ebl.mongodb.net/discordDatabase?retryWrites=true&w=majority');
+  await mongoose.connect('mongodb+srv://');
 }
 const discordSchema= mongoose.Schema({
   channelName:String,
